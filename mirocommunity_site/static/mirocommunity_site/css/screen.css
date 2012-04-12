@@ -161,7 +161,7 @@ ol > li { list-style-type: decimal; }
 .logo-link { float: left; }
 .logo-link:hover { border: 0; }
 
-.header-links { float: left; margin: 0; font-size: 13px; line-height: 18px; padding-bottom: 18px; padding-top: 18px; }
+.header-links { float: right; margin: 0; font-size: 13px; line-height: 18px; padding-bottom: 18px; padding-top: 18px; }
 
 .header-links-link, .header-links-button { float: left; margin-left: 2em; list-style: none; }
 .header-links-link > a, .header-links-button > a { line-height: 24px; height: 24px; display: inline-block; }
@@ -172,7 +172,10 @@ ol > li { list-style-type: decimal; }
 
 @media screen and (max-width: 960px) { #header > .container { padding: 0 10px; } }
 @media screen and (max-width: 740px) { #header > .container { position: static; margin-top: 45px; } }
-#footer { background: #222; }
+#footer { border-top: 1px solid #E0E0E0; padding: 24px 0; background: #F4F4F4; }
+
+.footer-column { float: left; width: 20%; }
+.footer-column > h2 { text-transform: lowercase; font-variant: small-caps; font-size: 13px; line-height: 18px; }
 
 #navigation { *zoom: 1; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; -ms-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px; margin-right: 20px; float: right; }
 #navigation:after { content: ""; display: table; clear: both; }
@@ -320,7 +323,7 @@ a:hover { color: #1b2939; }
 body { background: #cccccc; color: #444444; }
 
 /* main container */
-#main { border-top: 1px solid #cccccc; }
+#main:before { height: 410px; border-bottom: 15px solid #565656; width: 100%; display: block; content: ""; position: absolute; z-index: -1; background: url('/static/mirocommunity_site/images/classy_fabric.png?1334188290'); }
 
 #main > .container { background: white; -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25); -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25); -o-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25); box-shadow: 0 0 3px rgba(0, 0, 0, 0.25); }
 

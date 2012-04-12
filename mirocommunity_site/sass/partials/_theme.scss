@@ -57,7 +57,16 @@ body{
 /* main container */
 
 #main{
-	border-top:1px solid darken($main-background-color, 20%);
+	&:before{
+		height: 410px;
+		border-bottom: 15px solid #565656;
+		width:100%;
+		display:block;
+		content:"";
+		position:absolute;
+		z-index:-1;
+		background: image-url('classy_fabric.png');
+	}
 }
 
 #main > .container{

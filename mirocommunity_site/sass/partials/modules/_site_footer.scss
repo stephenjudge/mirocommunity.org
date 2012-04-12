@@ -1,6 +1,19 @@
 #footer{
-	background:#222;
+	border-top:1px solid #E0E0E0;
+	padding:24px 0;
+	background:#F4F4F4;
 }
 #footer > .container{
 	@extend .padded;
 }
+
+	.footer-column{
+		float:left;
+		width:20%;
+
+		& > h2{
+			text-transform: lowercase;
+			font-variant: small-caps;
+			@include normal;
+		}
+	}
