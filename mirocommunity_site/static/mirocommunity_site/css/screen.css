@@ -151,29 +151,24 @@ ol > li { list-style-type: decimal; }
 
 .button-wide { display: block; line-height: 36px; }
 
-#header { *zoom: 1; background: #FFF; padding-bottom: 9px; padding-top: 9px; }
+#header { *zoom: 1; background: #FFF; padding-bottom: 27px; padding-top: 27px; }
 #header:after { content: ""; display: table; clear: both; }
 
 #header > .container { position: relative; }
 
-#SiteLogo { float: left; }
-#SiteLogo img { display: block; }
+.logo-img { display: block; }
 
-#SiteTitle, #SiteTagline { margin: 0; padding-left: 20px; }
-
-#SiteTitle { font-weight: bold; }
-
-.site-title-small, #SiteTagline { font-size: 16px; line-height: 27px; }
-
-.site-title-large { font-size: 30px; line-height: 36px; line-height: 54px; }
-
-#SiteTagline { font-weight: 400; }
-
-#search #search_field { width: 80%; }
-#search .btn-right { width: 20%; }
-@media screen and (max-width: 740px) { #search { position: absolute; padding-bottom: 9px; padding-top: 9px; padding-left: 10px; padding-right: 10px; top: 0; right: 0; left: 0; background: #EEE; width: auto; border-bottom: 1px solid #CCC; } }
-
+.logo-link { float: left; }
 .logo-link:hover { border: 0; }
+
+.header-links { float: left; margin: 0; font-size: 13px; line-height: 18px; padding-bottom: 18px; padding-top: 18px; }
+
+.header-links-link, .header-links-button { float: left; margin-left: 2em; list-style: none; }
+.header-links-link > a, .header-links-button > a { line-height: 24px; height: 24px; display: inline-block; }
+
+.header-links-button > a { color: #fff; background: #DD2F2B; -moz-border-radius: 4px; -webkit-border-radius: 4px; -o-border-radius: 4px; -ms-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px; -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); padding: 0 11px; }
+.header-links-button > a:hover { color: #fff; border: 0; }
+.header-links-button > a:active { background: #BF2C28; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3); -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3); -o-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3); }
 
 @media screen and (max-width: 960px) { #header > .container { padding: 0 10px; } }
 @media screen and (max-width: 740px) { #header > .container { position: static; margin-top: 45px; } }
